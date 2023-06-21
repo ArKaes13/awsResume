@@ -1,3 +1,75 @@
-h1 {
-    color: red;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+html {
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    background-color: #001730;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+body {
+    width: 100%;
+}
+
+/* ---------Name--------- */
+.name {
+    color: white;
+    font-size: 3rem;
+    font-weight: 400;
+    margin: 10rem 0 0 0;
+    text-align: center;
+}
+
+/* ---------SectionHeader--------- */
+.sectionHeader {
+    display: flex;
+    justify-content: center;
+    margin: 7rem 0 7rem 0;
+    position: relative;
+}
+
+.sectionHeader h1 {
+    font-size: 3rem;
+    color: white;
+    font-weight: 400;
+    background-color: #001730;
+    padding: 0 1rem;
+}
+
+.line {
+    border: .1rem solid #06d6a0;
+    opacity: 50%;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    top: 50%;
+}
+
+/* ---------SectionHeader--------- */
+.jobContainer {
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.jobTypeContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.6rem;
+}
+
+.jobTypeContainer img {
+    width: 10rem;
+}
+
+.jobDescriptionContainer {
+    font-size: 1.6rem;
 }
