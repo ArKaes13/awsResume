@@ -10,8 +10,8 @@ function JobInfo(props) {
             </div>
             <div className='jobDescriptionContainer'>
                 <h2>{props.employer}</h2>
-                <h3>{props.title}</h3>
-                <div>{props.duties}</div>
+                <h3><em>{props.title}</em></h3>
+                <ul>{props.duties}</ul>
             </div>
         </div>
     );

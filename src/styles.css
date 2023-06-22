@@ -52,11 +52,12 @@ body {
     top: 50%;
 }
 
-/* ---------SectionHeader--------- */
+/* ---------Work Experience--------- */
 .jobContainer {
     color: white;
     display: flex;
     justify-content: center;
+    margin: 5rem 0 0 0;
 }
 
 .jobTypeContainer {
@@ -64,12 +65,61 @@ body {
     flex-direction: column;
     align-items: center;
     font-size: 1.6rem;
+    margin: 1rem 5rem 0 0;
 }
 
 .jobTypeContainer img {
-    width: 10rem;
+    width: 6rem;
+    height: 6rem;
+    border-radius: 18rem;
+    object-fit: cover;
 }
 
 .jobDescriptionContainer {
     font-size: 1.6rem;
+    width: 65rem;
+}
+
+.jobDescriptionContainer h2,
+.jobDescriptionContainer h3 {
+    font-weight: 400;
+}
+
+.jobDescriptionContainer h3 {
+    color: #06d6a0;
+}
+
+/* ---------Skills--------- */
+.skillContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.listContainer {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    color: white;
+    font-size: 1.6rem;
+    gap: 1rem 4rem;
+    list-style: none;
+}
+
+/* ---------Footer--------- */
+footer {
+    background-color: #073b4c;
+    display: flex;
+    justify-content: center;
+    opacity: 95%;
+    margin: 5rem 0 0 0;
+}
+
+footer div p {
+    color: white;
+    font-size: 1.4rem;
+    padding: 1rem;
+}
+
+footer div p a {
+    text-decoration: none;
+    color: white;
 }
