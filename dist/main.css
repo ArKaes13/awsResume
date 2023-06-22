@@ -18,13 +18,55 @@ body {
     width: 100%;
 }
 
-/* ---------Name--------- */
-.name {
+/* ---------Navbar--------- */
+.navbarContainer {
+    display: flex;
+}
+
+.githubIcon {
+    text-decoration: none;
     color: white;
+    font-size: 2rem;
+    margin: 1rem auto 0 2rem;
+    height: fit-content;
+}
+
+.navbarContainer button {
+    background-color: transparent;
+    border: none;
+    height: fit-content;
+    margin: 1rem 0 0 7rem;
+}
+
+.navbarContainer button a {
+    color: #06d6a0;
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+
+.awsLink {
+    margin: 1rem 2rem 0 auto;
+}
+
+.aws {
+    width: 15rem;
+}
+
+/* ---------Name--------- */
+.introContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10rem 0 0 0;
+    color: white;
+}
+.name {
     font-size: 3rem;
     font-weight: 400;
-    margin: 10rem 0 0 0;
-    text-align: center;
+}
+
+.introContainer p {
+    font-size: 1.4rem;
 }
 
 /* ---------SectionHeader--------- */
@@ -73,6 +115,11 @@ body {
     height: 6rem;
     border-radius: 18rem;
     object-fit: cover;
+}
+
+.jobTypeContainer p {
+    width: 15rem;
+    text-align: center;
 }
 
 .jobDescriptionContainer {
