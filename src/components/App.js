@@ -1,5 +1,6 @@
 import React from 'react';
 import Navbar from './Navbar.js';
+import VisitCounter from './VisitCounter.js';
 import Name from './Name.js';
 import SectionHeader from './SectionHeader.js';
 import JobInfo from './JobInfo.js';
@@ -21,6 +22,7 @@ function App() {
     return (
         <div>
             <Navbar />
+            <VisitCounter />
             <Name />
             <SectionHeader sectionName='Work Experience' />
             <JobInfo 

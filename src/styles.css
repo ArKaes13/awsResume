@@ -52,6 +52,25 @@ body {
     width: 15rem;
 }
 
+/* ---------Visit Counter--------- */
+.visitContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 1rem 3rem 0 auto;
+    width: fit-content;
+}
+
+.visitContainer p {
+    color: white;
+    font-size: 1.2rem;
+}
+
+#visitDisplay {
+    color: #06d6a0;
+    font-size: 1.2rem;
+}
+
 /* ---------Name--------- */
 .introContainer {
     display: flex;
