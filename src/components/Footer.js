@@ -1,4 +1,5 @@
 import React from 'react';
+import VisitCounter from './VisitCounter.js';
 
 function Footer() {
 
@@ -11,9 +12,10 @@ function Footer() {
 
     return (
         <footer>
-            <div>
+            <div className='copyrightContainer'>
                 <p dangerouslySetInnerHTML={{ __html: copyright() }}></p>
             </div>
+            <VisitCounter />
         </footer>
     );
 };

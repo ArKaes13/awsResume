@@ -18,59 +18,6 @@ body {
     width: 100%;
 }
 
-/* ---------Navbar--------- */
-.navbarContainer {
-    display: flex;
-}
-
-.githubIcon {
-    text-decoration: none;
-    color: white;
-    font-size: 2rem;
-    margin: 1rem auto 0 2rem;
-    height: fit-content;
-}
-
-.navbarContainer button {
-    background-color: transparent;
-    border: none;
-    height: fit-content;
-    margin: 1rem 0 0 7rem;
-}
-
-.navbarContainer button a {
-    color: #06d6a0;
-    text-decoration: none;
-    font-size: 1.6rem;
-}
-
-.awsLink {
-    margin: 1rem 2rem 0 auto;
-}
-
-.aws {
-    width: 15rem;
-}
-
-/* ---------Visit Counter--------- */
-.visitContainer {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 1rem 3rem 0 auto;
-    width: fit-content;
-}
-
-.visitContainer p {
-    color: white;
-    font-size: 1.2rem;
-}
-
-#visitDisplay {
-    color: #06d6a0;
-    font-size: 1.2rem;
-}
-
 /* ---------Name--------- */
 .introContainer {
     display: flex;
@@ -78,7 +25,9 @@ body {
     align-items: center;
     margin: 10rem 0 0 0;
     color: white;
+    gap: .5rem;
 }
+
 .name {
     font-size: 3rem;
     font-weight: 400;
@@ -86,6 +35,13 @@ body {
 
 .introContainer p {
     font-size: 1.4rem;
+}
+
+.githubIcon {
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    height: fit-content;
 }
 
 /* ---------SectionHeader--------- */
@@ -170,23 +126,66 @@ body {
     list-style: none;
 }
 
+.skillContainer button {
+    background-color: transparent;
+    border: none;
+    height: fit-content;
+    position: relative;
+    top: 3rem;
+}
+
+.skillContainer button a {
+    color: #06d6a0;
+    text-decoration: none;
+    font-size: 1.6rem;
+}
+
+.skillContainer button a:hover {
+    color: #ffd166;
+}
+
 /* ---------Footer--------- */
 footer {
     background-color: #073b4c;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     opacity: 95%;
     margin: 5rem 0 0 0;
 }
 
-footer div p {
+.copyrightContainer p {
     color: white;
     font-size: 1.4rem;
     padding: 1rem;
 }
 
-footer div p a {
+.copyrightContainer p a {
     text-decoration: none;
     color: white;
+}
+
+.visitContainer {
+    display: flex;
+}
+
+.visitContainer img {
+    width: 10rem;
+}
+
+.counterText {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 0 0 1rem;
+    font-size: 1.4rem;
+}
+
+.visitContainer p {
+    color: white;
+}
+
+#visitDisplay {
+    color: #06d6a0;
 }
 
