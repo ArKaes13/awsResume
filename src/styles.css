@@ -93,13 +93,14 @@ body {
 }
 
 .jobTypeContainer p {
-    width: 15rem;
+    width: 16rem;
     text-align: center;
 }
 
 .jobDescriptionContainer {
     font-size: 1.6rem;
     width: 65rem;
+    line-height: 1.5;
 }
 
 .jobDescriptionContainer h2,
@@ -187,4 +188,20 @@ footer {
 
 #visitDisplay {
     color: #06d6a0;
+}
+
+/* ---------Styling for Mobile--------- */
+@media (max-width: 500px) {
+    .jobContainer {
+        flex-direction: column;
+    }
+    
+    .jobTypeContainer {
+        margin: 0 0 1rem 0;
+    }
+    
+    .jobDescriptionContainer {
+        max-width: 40rem;
+        padding: 0 1rem 0 3rem;
+    }
 }
