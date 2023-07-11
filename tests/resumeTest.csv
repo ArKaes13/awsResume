@@ -1,0 +1,20 @@
+For Commit,Module Name,Project Name,,,,
+83c07e577daf4ed8f461dba1a867cc83e4f0dd86,Whole Project,Resume,,,,
+,,,,,,
+Test Scenario Description,Test Case Description,Test Steps,Test Data,Expected Result,Actual Result,Status
+Verify that the github button takes user to github,Click on the button,1. Click Github Button,N/A,Button takes user to github profile,Button takes user to github profile,Pass
+,,,,,,
+Verify that the ‘return to portfolio’ button takes user to Portfolio,Click on the button,1. Click Button,N/A,Button takes user to Portfolio website,Button takes user to Portfolio website,Pass
+,,,,,,
+Verify that the page visits counter increases when user visits URL,View page to increase counter,1. Visit URL,URL: montgomeryresume.click,web page loads successfully and counter increases by 1,web page loads successfully and counter increases by 1,Pass
+,,2. Check Counter,,,,
+,,,,,,
+Verify that the page visits counter increases when user refreshes page,Refresh page to increase counter,1. Refresh page,N/A,web page refreshes and the counter increases by 1,web page refreshes and the counter increases by 1,Pass
+,,2. Check Counter,,,,
+,,,,,,
+Verify that the API only communicates with the domain name,Try to access API from local,1. Run website on local system,URL: http://localhost:3000/,TypeError: failed to fetch,TypeError: failed to fetch,Pass
+,,2. Check Counter,,,,
+,,,,,,
+Verify that the styling breakpoint works at 500px,Lower window size below 500px,1. Open web page in chrome,URL: montgomeryresume.click,Format changes below 500px and returns to normal above 500px,Format changes below 500px and returns to normal above 500px,Pass
+,,2. Inspect page,,,,
+,,3. Use mobile tools to lower size,,,,
