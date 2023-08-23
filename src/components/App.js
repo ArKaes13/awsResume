@@ -8,6 +8,7 @@ import sanPasqual from '../images/sanPasqual.jpg';
 import valleyView from '../images/valleyView.jpg';
 import gpc from '../images/gpc.png';
 import pvc from '../images/powayValleyCollision.jpg';
+import santaYsabel from '../images/santaYsabel.jpg';
 import wri from '../images/wildlifeResearchInstitute.jpg';
 import Skills from './Skills.js';
 import Footer from './Footer.js';
@@ -137,7 +138,7 @@ function App() {
             />
             <JobInfo 
                 imgSrc={pvc}
-                dates='2010 - Mar 2016'
+                dates='Feb 2014 - Mar 2016'
                 type='On-Call | Perm'
                 employer='Poway Valley Collision'
                 title='Auto Body Technician Apprentice'
@@ -147,6 +148,22 @@ function App() {
                         'Thoroughly examined vehicles for damage and returned the vehicles to factory specifications.',
                         'Removed and replaced damaged parts using power and hands tools.',
                         'Detailed vehicles and prepped them for paint.',
+                    ].map(createListItem)
+                }
+            />
+            <JobInfo 
+                imgSrc={santaYsabel}
+                dates='2011 - Feb 2014'
+                type='Full-Time | Perm'
+                employer='Santa Ysabel Casino'
+                title='IT Technician'
+                duties={
+                    [
+                        'Responded to service calls in a timely manner, updated tickets, and liaised with Software Support/dispatch on progress.',
+                        'Trained and provided technical assistance to lower-level staff with installation and maintenance requirements.',
+                        'Identified recurring issues, documented them, and reported them to the Software Support team for testing.',
+                        'Installed hardware/software following design and installation specifications.',
+                        'Identified and resolved/repaired hardware/software problems.',
                     ].map(createListItem)
                 }
             />
