@@ -24,7 +24,7 @@ function App() {
             <SectionHeader sectionName='Work Experience' />
             <JobInfo 
                 imgSrc={sanDiegoCounty}
-                dates='Oct 2021 - May 2022'
+                dates='Oct 2021 - May 2023'
                 type='Full Time | Temp'
                 employer='County of San Diego Health and Human Services Agency'
                 title='Lead Case Investigator'
